@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio - Mes Projets</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="apropos.html">À propos</a></li>
+                <li><a href="competence.html">Compétences</a></li>
+                <li><a href="projets.html">Projets</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Mes Réalisations</h1>
+
+        <section class="projets-container">
+
+            <article class="projet-card">
+                <div class="projet-image-container">
+                    <img src="images/portfolio.png" alt="Illustration du Projet Portfolio" class="projet-img">
+                </div>
+                <div class="projet-content">
+                    <h2>Portfolio Personnel</h2>
+                    <p class="projet-technologies"><strong>Technologies :</strong> HTML5, CSS3, JavaScript</p>
+                    <p class="projet-description">Conception et développement d'un site web personnel responsive pour présenter mon parcours, mes compétences techniques et mes réalisations, avec une navigation fluide entre les différentes sections.</p>
+                    
+                    <div class="details-projet details-caches">
+                        <p><strong>Objectifs clés :</strong> Structuration sémantique des pages, mise en page adaptative via Flexbox et Media Queries, et ajout d'interactions dynamiques en JavaScript natif (affichage/masquage de contenu).</p>
+                    </div>
+                    
+                    <button class="btn-voir-plus">Voir plus</button>
+                </div>
+            </article>
+
+            <article class="projet-card">
+                <div class="projet-image-container">
+                    <img src="images/python.png" alt="Illustration du Projet Données Médicales" class="projet-img">
+                </div>
+                <div class="projet-content">
+                    <h2>Prétraitement et Nettoyage de Données Médicales</h2>
+                    <p class="projet-technologies"><strong>Technologies :</strong> Python, Pandas, NumPy</p>
+                    <p class="projet-description">Traitement d'un jeu de données médicales brutes en vue de leur exploitation pour l'analyse, incluant la détection et la correction des valeurs manquantes, aberrantes et incohérentes.</p>
+                    
+                    <div class="details-projet details-caches">
+                        <p><strong>Objectifs clés :</strong> Standardisation des formats de données, gestion des valeurs nulles et des doublons, et préparation d'un jeu de données fiable et exploitable pour des analyses statistiques futures.</p>
+                    </div>
+                    
+                    <button class="btn-voir-plus">Voir plus</button>
+                </div>
+            </article>
+
+            <article class="projet-card">
+                <div class="projet-image-container">
+                    <img src="images/yolo-26.jpeg" alt="Illustration du Projet Détection d'Objets YOLO" class="projet-img">
+                </div>
+                <div class="projet-content">
+                    <h2>Détection d'Objets avec YOLO</h2>
+                    <p class="projet-technologies"><strong>Technologies :</strong> Python, YOLO, Google Colab</p>
+                    <p class="projet-description">Mise en place d'un modèle d'intelligence artificielle spécialisé dans la détection d'objets en temps réel, l'analyse d'images complexes et l'évaluation des performances de reconnaissance.</p>
+                    
+                    <div class="details-projet details-caches">
+                        <p><strong>Objectifs clés :</strong> Entraînement et évaluation du modèle sur un jeu de données annoté, ajustement des hyperparamètres pour optimiser la précision (mAP), et exploitation de scripts d'automatisation du traitement d'images.</p>
+                    </div>
+                    
+                    <button class="btn-voir-plus">Voir plus</button>
+                </div>
+            </article>
+
+        </section>
+    </main>
+
+    <script src="JS/scripts.js"></script>
+</body>
+</html>
